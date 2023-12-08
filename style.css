@@ -1,0 +1,381 @@
+/* ################### 0-Grid Elements ################### */
+/* .parent {
+    display: grid;
+    grid-template-columns: auto auto auto  auto;
+    background-color: #2196F3;
+    padding: 50px;
+    gap: 10px;
+      }
+  .parent>div {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  } */
+
+  /* ..........Grid Lines ...............*/
+
+  /* .parent {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+  
+  .parent > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+  
+  .grid-item1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+
+  .grid-item3 {
+    grid-row-start: 2;
+    grid-row-end: 4;
+  } */
+
+  /* ################### 1-Grid Container ################### */
+  /* ................. (a) grid template columns.............. */
+  /* .parent {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+  
+  .parent > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid black;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .parent2 {
+    display: grid;
+    grid-template-columns: 300px 200px auto 700px;;
+    gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+  
+  .parent2 > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid black;
+    text-align: center;
+    font-size: 30px;
+  } */
+
+  /* ..................... (b) Grid tempalte rows .................... */
+  /* .parent3 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 80px 200px;
+    gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+  
+  .parent3 > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  } */
+  /* ################### 2-juatify Conteny ################### */
+  /* ...................Space Evenly.............. */
+  /* .parent-justify {
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: 50px 50px 50px; 
+    gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+  
+  .parent-justify > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  } */
+/* .................Space Around ...............*/
+  /* .space-around {
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: 50px 50px 50px; 
+    gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+  
+  .space-around > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  } */
+  
+/* .................Center ...............*/
+/* .center {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 50px 50px 50px; 
+    gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+    .center > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  } */
+  /* .................start ...............*/
+/* .start {
+    display: grid;
+    justify-content: start;
+    grid-template-columns: 50px 50px 50px; 
+    gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+    .start > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  } */
+  /* .................End ...............*/
+/* .end {
+    display: grid;
+    justify-content: end;
+    grid-template-columns: 50px 50px 50px; 
+    gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+    .end > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  } */
+  /* ################### 3- Align Content Property ################### */
+/* ....................Center ................. */
+  /* .center {
+    display: grid;
+    height: 400px;
+    align-content: center;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+  
+  .center > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  } */
+
+  /* ....................Space Evenly ................. */
+  /* .space-evenly {
+    display: grid;
+    height: 400px;
+    align-content: space-evenly;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+  
+  .space-evenly > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  } */
+  /* ....................Space Around ................. */
+  /* .spacearound {
+    display: grid;
+    height: 200px;
+    align-content: space-around;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+  
+  .spacearound > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  } */
+  /* ....................Space Between ................. */
+  /* .spacebetween {
+    display: grid;
+    height: 400px;
+    align-content: space-between;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+  
+  .spacebetween > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  } */
+  /* ....................Start ................. */
+  /* .start {
+    display: grid;
+    height: 400px;
+    align-content: start;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+  
+  .start> div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  } */
+   /* ....................End ................. */
+   /* .end {
+    display: grid;
+    height: 400px;
+    align-content: end;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+  
+  .end> div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  } */
+
+  /* ################### 4- CSS GRID Item ################### */
+  /* ..............Grid Column ................. */
+  /* .parent {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+  
+  .parent > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+  
+  .item1 {
+    grid-column: 1 / 5;
+  } */
+
+   /* ..............Grid Row ................. */
+   /* .parent-row {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+  
+  .parent-row > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+  
+  .item01 {
+    grid-row: 1 / 4;
+  } */
+
+  /* ################### 5- Grid Area ################### */
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+  
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+  
+  .item8 {
+    grid-area: 1 / 2 / 5 / 6;
+  }
+
+  /* ...........Naming Grid Items ............... */
+
+  .item01 {
+    grid-area: myArea;
+  }
+  
+  .naming {
+    display: grid;
+    grid-template-areas: 'myArea myArea myArea myArea myArea';
+    gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+  
+  .naming > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+
+ /* ################### 6- Order Of Items ################### */
+
+  .order {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+  
+  .order > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+  
+  .item1 { grid-area: 1 / 3 / 2 / 4; }
+  .item2 { grid-area: 2 / 3 / 3 / 4; }
+  .item3 { grid-area: 1 / 1 / 2 / 2; }
+  .item4 { grid-area: 1 / 2 / 2 / 3; }
+  .item5 { grid-area: 2 / 1 / 3 / 2; }
+  .item6 { grid-area: 2 / 2 / 3 / 3; }
